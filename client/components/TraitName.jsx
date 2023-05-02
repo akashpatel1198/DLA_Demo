@@ -22,7 +22,7 @@ const TraitName = ({name, layer}) => {
   return(
     <div className="value">
       <span>{name}</span>
-      <input type="checkbox" defaultChecked={isChecked} checked={isChecked} onChange={handleChange}></input>
+      <input type="checkbox" checked={isChecked} onChange={handleChange}></input>
     </div>
   )
 }
